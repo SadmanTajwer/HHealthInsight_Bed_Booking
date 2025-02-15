@@ -44,8 +44,8 @@ const closeDescriptionBtn = document.getElementById('close-description');
 
 // Ticket price per flight and per type of seat -- ex: 'NY-CH' is element[0] => [prenium ticket price[0], 
 // legroom ticket price[1], front ticket price[2], standard ticket price[3]]
-const data = [[40000, 30000, 20000, 18000], [240, 180, 130, 120], [280, 220, 170, 160], [350, 290, 240, 230], [370, 310, 260, 250],
-[390, 330, 270, 260], [300, 240, 190, 180], [270, 210, 160, 150]];
+const data = [[40000, 30000, 20000, 18000], [35000, 18000, 13000, 12000], [28000, 22000, 17000, 16000], [35000, 29000, 24000, 23000], [37000, 31000, 26000, 2500],
+[39000, 33000, 27000, 26000], [32000, 24000, 19000, 18000], [25000, 21000, 16000, 15000]];
 
 // Initialize ticket prices in showcase with data from index [0] of the above data array
 const initialFlightRates = data[0];
